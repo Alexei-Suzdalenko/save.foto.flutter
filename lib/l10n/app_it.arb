@@ -1,0 +1,20 @@
+{
+  "enter_with": "Entrare con",
+  "out_": "Logout",
+  "category_": "Elenco delle categorie",
+  "crea_categoria": "Crea categoria",
+  "insert_name_save": "Inserisci nome e salva",
+  "cancella": "Annulla",
+  "salva": "Salva",
+  "caricamento": "Caricamento",
+  "no_category": "Nessuna categoria ancora!",
+  "options": "Opzioni",
+  "show_foto": "Mostra foto",
+  "do_foto": "Fai foto",
+  "upload_from_gallery": "Carica dalla galleria",
+  "wait": "Si prega di attendere",
+  "uploding": "L'immagine viene caricata sul cloud ...",
+  "not_images": "Questa categoria non ha ancora immagini",
+  "delete_image": "Elimina questa immagine",
+  "you_are_sure": "Sei sicuro"
+}

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "714747758163",
+    "firebase_url": "https://web-developer-alexei-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "web-developer-alexei",
+    "storage_bucket": "web-developer-alexei.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714747758163:android:61177bbcc935cf6611e8a6",
+        "android_client_info": {
+          "package_name": "save.foto.flutter_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714747758163-698dm4vl18b8kh607t94ld578mqho9hm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "save.foto.flutter_app",
+            "certificate_hash": "8fe8356d8675c2029b50db4a53b30c955294477a"
+          }
+        },
+        {
+          "client_id": "714747758163-dblvmljbts82iq6ksv8pag3qifbivmb6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaozJfM1_C-9To9TGqJD1QXsa8WrxACTw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714747758163-dblvmljbts82iq6ksv8pag3qifbivmb6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

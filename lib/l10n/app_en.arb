@@ -1,0 +1,20 @@
+{
+  "enter_with": "Enter with ",
+  "out_": "Logout",
+  "category_": "List of categories ",
+  "create_category": "Create category",
+  "insert_name_save": "Insert name and save",
+  "cancel": "Cancel",
+  "save": "Save",
+  "loading": "Loading",
+  "no_category": "No categories yet!",
+  "options": "Options",
+  "show_foto": "Show fotos",
+  "do_foto": "Do foto",
+  "upload_from_gallery": "Upload from gallery",
+  "wait": "Please wait",
+  "uploding": "The image is uploaded to the cloud ...",
+  "not_images": "This category has no images yet",
+  "delete_image": "Delete this image",
+  "you_are_sure": "You are sure"
+}

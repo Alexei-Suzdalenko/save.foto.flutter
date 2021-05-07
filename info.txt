@@ -1,0 +1,36 @@
+create key.properties: android/key.properties
+
+storePassword=svoboda
+keyPassword=svoboda
+keyAlias=key
+storeFile=E:\\svoboda_key.jks
+
+
+
+
+// insert from me 1
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file('key.properties')
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
+
+
+ // insert from me 2
+    signingConfigs {
+        release {
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
+            storePassword keystoreProperties['storePassword']
+        }
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+        }
+    }
+
+
+flutter install
+flutter build apk

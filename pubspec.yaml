@@ -1,0 +1,56 @@
+name: flutter_app
+description: A new Flutter application.
+publish_to: 'none'
+
+version: 3.0.0+3
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:                                 #language
+    sdk: flutter                                    #language
+
+
+  intl: ^0.17.0                                 #language
+  cupertino_icons: ^1.0.2
+  generic_bloc_provider: ^1.1.0
+  firebase_auth: ^1.1.1
+  google_sign_in: ^5.0.2
+  firebase_storage: ^8.0.4
+  firebase_database: ^6.1.2
+  cloud_firestore: ^1.0.6
+  firebase_core: ^1.0.4
+  image_picker: ^0.7.4
+  cached_network_image: ^3.0.0
+  nice_button: ^0.1.7
+  # firebase_analytics: ^5.0.6
+  image_downloader: ^0.30.0
+  share: ^2.0.1
+  flutter_launcher_icons: ^0.9.0
+  admob_flutter: ^1.0.1
+  url_launcher: ^6.0.3
+ # google_mobile_ads: ^0.12.1+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  generate: true                                       #language
+  uses-material-design: true
+
+  assets:
+    - assets/img/sign.png
+    - assets/img/tenor.gif
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/img/foto.png"
+
+# gradlew signingReport
+# flutter pub run flutter_launcher_icons:main
+

@@ -1,0 +1,20 @@
+{
+  "enter_with": "eingeben mit",
+  "out_": "Abmelden",
+  "category_": "Liste der Kategorien",
+  "create_category": "Kategorie erstellen",
+  "insert_name_save": "Name einfügen und speichern",
+  "cancel": "Abbrechen",
+  "save": "Speichern",
+  "loading": "Laden",
+  "no_category": "Noch keine Kategorien!",
+  "options": "options",
+  "show_foto": "Fotos anzeigen",
+  "do_foto": "Do foto",
+  "upload_from_gallery": "Von Galerie hochladen",
+  "wait": "Bitte warten",
+  "uploding": "Das Bild wird in die Cloud hochgeladen ...",
+  "not_images": "Diese Kategorie hat noch keine Bilder",
+  "delete_image": "Dieses Bild löschen",
+  "you_are_sure": "Sie sind sicher"
+}
